@@ -13,7 +13,7 @@
 
 目录结构如下所示: 
 
-    FlymeOS
+    SmartisanOS
      +-- manifest           项目清单
      +-- tutorials          教程文档
      +-- plugins            扩展插件，用于扩展已有功能
@@ -32,7 +32,7 @@
 通过repo init命令的-b参数, 选择需要下载的分支。
 通过repo sync命令同步远程代码: 
 
-    $ repo init -u https://github.com/FlymeOS/manifest.git -b marshmallow-6.0
+    $ repo init -u https://github.com/LTDSA/smartisan-manifest.git -b marshmallow-6.0
     $ repo sync -c -j4
 
 如果连接一直失败或下载代码过慢，则使用以下命令:
@@ -71,7 +71,7 @@
     <<<<<<< VENDOR
       原厂的代码块
     =======
-      Flyme的代码块
+      SmartisanOS的代码块
     >>>>>>> BOSP
 
 
@@ -85,22 +85,22 @@
 
 # 5. 贡献代码
 
-我们鼓励开发者为开源社区作出贡献。利用Github的Pull-Request机制，便可将内容变更发送给Flyme官方审阅。
+我们鼓励开发者为开源社区作出贡献。利用Github的Pull-Request机制，便可将内容变更发送给LTDSA审阅。
 
 ![image](github-pull-request.png)
 
 - 首先，在github页面上，点击“Fork”，将Flyme的git库拷贝到自己账户
 - 然后，对拷贝的git库进行修改，将内容变更提交到自己的账户
-- 最后，在github页面上，点击"New pull request"，向Flyme官方发起代码审阅
+- 最后，在github页面上，点击"New pull request"，向LTDSA发起代码审阅
 
 
 # 6. 其他
 
 <b>* 问题求助与反馈</b>
 
-- <p><a href="mailto:446108651@qq.com">446108651@qq.com</a></p>
-- <p><a href="mailto:zoujunhua86@gmail.com">zoujunhua86@gmail.com</a></p>
+- <p><a href="mailto:2239735983@qq.com">2239735983@qq.com</a></p>
+- <p><a href="mailto:thinkgogle@gmail.com">thinkgogle@gmail.com</a></p>
 
 <b>* 已适配机型展示与下载</b>
 
-- <http://www.flyme.cn/firmware.html>
+- <https://ltdsa.github.io/lrp>
